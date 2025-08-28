@@ -39,4 +39,42 @@ Method: Delete
 Input link http://localhost:4000/movies/1 
 Click send to delete a movie
 
+Method: Get
+Input link http://localhost:4000/users
+Click send to receive users 
+
+Method: Post
+Input link http://localhost:4000/users
+Body -> raw -> JSON
+Click send to add a user
+
+Method: Put
+Input link http://localhost:4000/users/1
+Body -> raw -> JSON
+Click send to create a user
+
+Method: Delete
+Input link http://localhost:4000/users/1 
+Click send to delete a user
+
+Method: Get
+Input link http://localhost:4000/bookings
+Click send to receive booking info
+
+Method: Post
+Input link http://localhost:4000/bookings
+Body -> raw -> JSON
+Click send to add a booking
+
+Method: Put
+Input link http://localhost:4000/bookings/1
+Body -> raw -> JSON
+Click send to update a booking
+
+Method: Delete
+Input link http://localhost:4000/bookings/1 
+Click send to delete a booking
+
+
+
 
